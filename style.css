@@ -1,11 +1,30 @@
 
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+   font-family: "Josefin Sans", sans-serif;
+   
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 :root{
  --primary-color: #10330B;
  --secondary-color: #023E46;
  --tertiary-color: #1C676A;
  --orange-1: #A54610;
- --orange-2: #FEAA47;
+ --hover: #FEAA47;
 
 }#logo{
     
@@ -29,5 +48,6 @@
 
 .contact-us-form{
     width: 600px;
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    color: #fff;
 }
