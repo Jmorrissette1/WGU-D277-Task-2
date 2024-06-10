@@ -26,10 +26,7 @@ body {
  --orange-1: #A54610;
  --hover: #FEAA47;
 
-}#logo{
-    
 }
-
 .container{
     display: flex;
     flex-direction: column;
@@ -43,6 +40,116 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+
+#nav-logo{
+    width: 175px;
+    height: 175px;
+}
+
+#footer-logo{
+    width: 200px;
+    height: 200px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    
+}
+
+.nav-element{
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-element a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.nav-element a:hover{
+    color: var(--hover);
+} 
+
+.hero-section{
+  background-image: url(img/hero-img.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #fff;
+} 
+
+
+.content-header{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.content-hr{
+    margin-top: -1rem;
+    width: 280px;
+    color: var(--orange-1);
+}
+.content-box{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content-main{
+    max-width: 900px;
+    margin-right: 2rem;
+}
+.content-aside{
+    background-color: var(--hover);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.aside-li-item{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+footer{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.instagram-logo{
+    height: 75px;
+    width: 75px;
+}
+
+.facebook-logo{
+    height: 75px;
+    width: 75px;
+}
+
+
 
 /**Contact Us Form Styling **/
 
