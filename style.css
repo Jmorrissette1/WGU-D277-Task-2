@@ -41,10 +41,6 @@ body {
     justify-content: center;
 }
 
-
-
-
-
 #nav-logo{
     width: 175px;
     height: 175px;
@@ -118,6 +114,7 @@ body {
     color: var(--tertiary-color)
 }
 .content-aside{
+    margin-left: 1rem;
     background-color: var(--hover);
     max-width: 400px;
     display: flex;
@@ -137,6 +134,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-right: 2rem;
     
 }
 .card{
@@ -189,6 +187,49 @@ body {
     background-image: url(img/culture-img.jpg);
     background-size: cover;
 }
+
+
+
+
+/** Cities Styling **/
+
+.cities-hero-section{
+    background-image: url(img/cities-hero-img.png);
+    background-size: cover;
+    width: 100vw;
+    height: 650px;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.city-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+
+.city-img{
+    width: 600px;
+    max-height: 337.25px;
+}
+.cities-main{
+    max-width: 1200px;
+    color: var(--tertiary-color);
+}
+.city-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 600px;
+}
+
 footer{
     background-color: var(--secondary-color);
     display: flex;
