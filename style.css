@@ -121,8 +121,11 @@ body {
 .content-hr{
     margin-top: -1rem;
     width: 280px;
-    color: var(--orange-1);
+    background-color: var(--orange-1);
+    height: 2px;
+    border: none;
 }
+
 .content-box{
     margin-top: 3rem;
     margin-bottom: 3rem;

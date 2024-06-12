@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Explore Washington</title>
+    <title>Explore Washington | Contact Us</title>
 </head>
 
 <body>
@@ -34,12 +34,26 @@
     <section class="content-section">
         <div class="content-header">
 
-            <h2>History</h2>
+            <h2>Contact Us</h2>
             <hr class="content-hr">
         </div>
         <div class="content-box">
             <div class="content-main">
-
+                <section class="contact-form">
+                    <form action="/submit_form" method="post">
+                        <label for="first-name">First Name:</label><br>
+                        <input type="text" id="first-name" name="first-name"><br>
+                        <label for="last-name">Last Name:</label><br>
+                        <input type="text" id="last-name" name="last-name"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="confirm-email">Confirm Email:</label><br>
+                        <input type="email" id="confirm-email" name="confirm-email"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message"></textarea><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
             </div>
             <aside class="content-aside">
                 <h2 class="aside-h2">5 Fun Facts about Washington</h2>
