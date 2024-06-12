@@ -61,6 +61,7 @@ body {
     align-items: center;
     background-color: var(--secondary-color);
     font-size: 25px;
+    height: 100px;
     
 }
 
