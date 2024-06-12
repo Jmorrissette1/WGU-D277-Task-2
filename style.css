@@ -50,6 +50,9 @@ body {
     width: 200px;
     height: 200px;
 }
+.nav-section{
+    margin-top: -2rem;
+}
 
 .nav-bar{
     display: flex;
@@ -230,6 +233,21 @@ body {
     max-width: 600px;
 }
 
+
+.history-hero-section{
+    background-image: url(img/history-hero.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 650px;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+/** Footer Styling **/
 footer{
     background-color: var(--secondary-color);
     display: flex;
