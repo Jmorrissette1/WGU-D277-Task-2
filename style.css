@@ -305,6 +305,41 @@ td{
 
 }
 
+/** Arts & Culture**/
+.arts-hero-section{
+    background-image: url(img/arts-hero.png);
+    background-size: cover;
+    width: 100vw;
+    height: 650px;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.photo-table-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photo-table{
+    border: none;
+}
+
+.arts-td{
+    border: none;
+}
+
+.table-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
 /**Contact Us Form Styling **/
 
 .contact-us-form{
