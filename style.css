@@ -256,6 +256,18 @@ body {
     margin-right: 2rem;
     max-width: 600px;
 }
+.cities-aside{
+    float: right;
+    margin-left: 1rem;
+    background-color: var(--hover);
+    max-width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+}
 
 .table-section{
     display: flex;
@@ -296,12 +308,67 @@ td{
 /**Contact Us Form Styling **/
 
 .contact-us-form{
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
     background-color: var(--tertiary-color);
     color: #fff;
 }
 
+form{
+    padding: 4rem;
+}
 
+.input-label{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.input-feild{
+    margin-bottom: 1rem;
+    width: 400px;
+    height: 30px;   
+}
+
+.text-feild{
+    margin-bottom: 1rem;
+    width: 400px;
+    height: 300px;
+}
+
+.submit-btn{
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    background-color: var(--hover);
+    border: none;
+}
+
+.contact-us-aside{
+    float: right;
+    margin-left: 1rem;
+    background-color: var(--hover);
+    max-width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+}
+.contact-hero-section{
+    background-image: url(img/contact-us-hero.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 650px;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+}
 /** Footer Styling **/
 footer{
     background-color: var(--secondary-color);

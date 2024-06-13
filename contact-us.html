@@ -28,8 +28,8 @@
             </ul>
         </nav>
     </header>
-    <section class="hero-section">
-        <h1>History of Washington</h1>
+    <section class="contact-hero-section">
+        <h1>Got Questions?</h1>
     </section>
     <section class="content-section">
         <div class="content-header">
@@ -39,32 +39,27 @@
         </div>
         <div class="content-box">
             <div class="content-main">
-                <section class="contact-form">
-                    <form action="/submit_form" method="post">
-                        <label for="first-name">First Name:</label><br>
-                        <input type="text" id="first-name" name="first-name"><br>
-                        <label for="last-name">Last Name:</label><br>
-                        <input type="text" id="last-name" name="last-name"><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email"><br>
-                        <label for="confirm-email">Confirm Email:</label><br>
-                        <input type="email" id="confirm-email" name="confirm-email"><br>
-                        <label for="message">Message:</label><br>
-                        <textarea id="message" name="message"></textarea><br>
-                        <input type="submit" value="Submit">
+                <section class="contact-us-form">
+                    <form  id="contact-form">
+                        <label for="first-name" class="input-label">First Name:</label><br>
+                        <input type="text" id="first-name" name="first-name" class="input-feild" placeholder="First Name"><br>
+                        <label for="last-name" class="input-label">Last Name:</label><br>
+                        <input type="text" id="last-name" name="last-name"  class="input-feild" placeholder="Last Name"><br>
+                        <label for="email" class="input-label">Email:</label><br>
+                        <input type="email" id="email" name="email"  class="input-feild" placeholder="Email Address"><br>
+                        <label for="confirm-email" class="input-label">Confirm Email:</label><br>
+                        <input type="email" id="confirm-email" name="confirm-email" class="input-feild" placeholder="Confirm Email Address" required><br>
+                        <label for="message" class="input-label">Message:</label><br>
+                        <textarea id="message" name="message"  class="text-feild"  placeholder="Got Questions? Send us a message!"></textarea><br>
+                        <input type="submit" value="Submit" class="submit-btn">
+                        <span id="email-error" style="color: red;"></span>
+                        
                     </form>
                 </section>
             </div>
-            <aside class="content-aside">
-                <h2 class="aside-h2">5 Fun Facts about Washington</h2>
-                <ol>
-                    <li class="aside-li-item">The Washington State flag is the only one that's green.</li>
-                    <li class="aside-li-item">The square dance is Washington's Official State Dance.</li>
-                    <li class="aside-li-item">Richland, Washington is home to the largest freezer on earth.</li>
-                    <li class="aside-li-item">In Everett, it is illegal to put a hypnotized person on display in a store
-                        window.</li>
-                    <li class="aside-li-item">Pickleball was invented in Washington.</li>
-                </ol>
+            <aside class="contact-us-aside">
+                <h2 class="aside-h2">Got Questions?</h2>
+                <p>Fill out the contact form and send us a inquiry</p>
             </aside>
         </div>
 
@@ -77,6 +72,7 @@
             <img class="facebook-logo" src="WanderLust-FB.svg" alt="orange facebook logo">
         </div>
     </footer>
+    <script src="email-check.js"></script>
 </body>
 
 </html>
