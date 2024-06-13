@@ -336,9 +336,13 @@ td{
 }
 
 .table-img{
-    width: 300px;
-    height: 300px;
+    width: 370px;
+    height: 350px;
     border-radius: 10px;
+}
+
+.arts-td:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 /**Contact Us Form Styling **/
 
